@@ -411,7 +411,7 @@ footer {
     transform: scale(1.08);
 }
 
-@media(max-width:1500px) {
+@media only screen and (max-width:600px) {
    .port-header {
     display: flex;
     justify-content: space-between;
