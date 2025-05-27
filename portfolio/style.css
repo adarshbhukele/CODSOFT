@@ -5,7 +5,10 @@
     --text-black-900: #302e4d;
     --text-black-700: #504e70;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     margin: 0 40px 0 40px;
     padding: 0;
@@ -15,29 +18,31 @@ body {
     font-style: normal;
     cursor: default;
 }
-
-.port-header {
-    display: flex;
-    justify-content: space-between;
-    height: 60px;
-    text-align: center;
-    align-items: center;
-    border: 1px solid white;
-    border-radius: 4px;
-    margin: 10px 30px 0 30px;
-    border-radius: 15px;
-}
-
-.logo {
-    margin: 0 40px 0 30px;
-    color: white;
+.logo{
     font-size: 30px;
     font-family: "Clicker Script", cursive;
     font-weight: 400;
     font-style: normal;
-
 }
-
+.port-header ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin-top: 20px;
+}
+.port-header li {
+    height: 50px;
+}
+.port-header li:first-child{
+    margin-right: auto;
+}
+.port-header a{
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+}
 .btn {
     font-size: 18px;
     padding: 12px 35px;
@@ -65,27 +70,48 @@ body {
 .color {
     color: var(--skin-color);
 }
-
-.head-div {
-    width: 500px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
 main {
     color: white;
 }
 
-.head-div a {
+ul a {
     text-decoration: none;
     color: white;
     font-size: 20px;
     transition: all 0.3s ease;
 }
-
-.head-div a:hover {
+ul a:hover {
     transform: scale(1.1);
     color: var(--skin-color);
+}
+
+.sidebar  {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: #0f151de4;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    list-style: none;
+}
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+}
+.sidebar li{
+    margin-top:20px ;
+    width: 100%;
+    padding-left: 20px;
+}
+#menu-btn {
+    display: none;
 }
 
 #home {
@@ -411,15 +437,20 @@ footer {
     transform: scale(1.08);
 }
 
-@media(max-width:1500px) {
-    .logo {
+@media(max-width:750px) {
+    .head-div a {
         display: none;
-    }
-    .port-header{
-        font-size: 12px;
     }
 
     .intro p {
+        display: none;
+    }
+
+    #menu-btn {
+        display: block;
+        
+    }
+    .hideonmobile{
         display: none;
     }
 

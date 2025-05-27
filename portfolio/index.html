@@ -22,16 +22,23 @@
 
 <body>
     <header class="port-header">
-        <div class="logo color">
-            <span style="font-size: 35px;">A</span><span>adarsh</span>
-        </div>
-        <div class="head-div">
-            <a href="#home">Home</a>
-            <a href="#skill">Skills</a>
-            <a href="#project">Projects</a>
-            <a href="#contact">Contact</a>
-        </div>
+        <ul>
+            <li><a href="#" class="color logo">Aadarsh</a></li>
+            <li class="hideonmobile"><a href="#">Home</a></li>
+            <li class="hideonmobile"><a href="#skill">Skills</a></li>
+            <li class="hideonmobile"><a href="#project">Projects</a></li>
+            <li class="hideonmobile"><a href="#contact">Contact</a></li>
+            <li><a href="#" onclick="showSideBar()" id="menu-btn"><i class="fa-solid fa-bars"></i></a></li>
+        </ul>
     </header>
+
+    <ul class="sidebar">
+        <li><a href="#" onclick="hideSideBar()"><i class="fa-solid fa-xmark"></i></a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
     <main>
         <div id="home">
             <h2>Hello , My Name is <span class="name color">Aadarsh Bhukele.</span></h2>
