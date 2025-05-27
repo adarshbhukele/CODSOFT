@@ -415,8 +415,8 @@ footer {
     .logo {
         display: none;
     }
-    body{
-        margin: 0;
+    .port-header{
+        font-size: 12px;
     }
 
     .intro p {
