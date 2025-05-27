@@ -415,6 +415,9 @@ footer {
     .logo {
         display: none;
     }
+    .port-header{
+        margin: 0;
+    }
 
     .intro p {
         display: none;
