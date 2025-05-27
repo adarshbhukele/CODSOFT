@@ -112,6 +112,7 @@ ul a:hover {
 }
 #menu-btn {
     display: none;
+    padding-top:10px;
 }
 
 #home {
