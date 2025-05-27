@@ -1,0 +1,460 @@
+:root {
+    --bg-black-900: #f2f2fc;
+    --bg-black-100: #fdf9ff;
+    --bg-black-50: #e8dfec;
+    --text-black-900: #302e4d;
+    --text-black-700: #504e70;
+}
+
+body {
+    margin: 0 40px 0 40px;
+    padding: 0;
+    background-color: #0f151de4;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: default;
+}
+
+.port-header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 10px 30px 0 30px;
+    border-radius: 15px;
+}
+
+.logo {
+    margin: 0 40px 0 30px;
+    color: white;
+    font-size: 30px;
+    font-family: "Clicker Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.btn {
+    font-size: 18px;
+    padding: 12px 35px;
+    color: white;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    background: var(--skin-color);
+    transition: all 0.3s ease;
+    margin: 0 0 30px 40px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    transform: scale(1.07);
+}
+
+.name {
+    font-family: "Playwrite DK Loopet", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.color {
+    color: var(--skin-color);
+}
+
+.head-div {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+    color: white;
+}
+
+.head-div a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.head-div a:hover {
+    transform: scale(1.1);
+    color: var(--skin-color);
+}
+
+#home {
+    width: 100%;
+    max-width: 550px;
+    margin-top: 70px;
+}
+
+img {
+    width: 400px;
+    background-image: url(background.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 30px;
+    transform: translateY(-40%);
+}
+
+#home h1,
+h2 {
+    display: block;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.intro {
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem
+}
+
+.intro p {
+    margin: 0 0 0 30px;
+    font-size: large;
+}
+
+h1 {
+    width: 100%;
+    max-width: 550px;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+#skill {
+    margin-top: 60px;
+    display: block;
+    margin-left: 50px;
+}
+
+#my-skills {
+    margin: 40px 0 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill-1,
+.skill-2,
+.skill-3 {
+    background: transparent;
+    backdrop-filter: blur(30px);
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    transition: all 0.3s ease;
+    text-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#my-skills i {
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.skill-1:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+    box-shadow: 5px 5px 15px 2px var(--skin-color);
+}
+
+.skill-2:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+    box-shadow: 5px 5px 15px 2px var(--skin-color);
+}
+
+.skill-3:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+    box-shadow: 5px 5px 15px 2px var(--skin-color);
+}
+
+#project {
+    margin-top: 60px;
+    display: block;
+    margin-left: 50px;
+}
+
+.div1,
+.div2,
+.div3,
+.div4 {
+    background: transparent;
+    backdrop-filter: blur(30px);
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+    transition: all 0.3s ease;
+    text-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: end;
+    justify-content: space-between;
+}
+
+.project-visit {
+    font-size: 18px;
+    padding: 12px 35px;
+    color: white;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    background: var(--skin-color);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    margin-bottom: 25px
+}
+
+.project-visit:hover {
+    transform: scale(1.07);
+}
+
+.div1 {
+    color: black;
+    background-image: url(Tic_Tac_Toe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div2 {
+    color: black;
+    background-image: url(rock-paper-scissors-icons.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div3 {
+    color: black;
+    background-image: url(loginpage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div4 {
+    color: white;
+    background-image: url(portfolio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#my-projects h2 {
+    text-align: center;
+    display: block;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#my-projects {
+    margin: 40px 0 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div1:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+    box-shadow: 5px 5px 15px 2px var(--skin-color);
+}
+
+.div2:hover {
+    box-shadow: 5px 5px 15px 2px var(--skin-color);
+    cursor: pointer;
+    transform: scale(1.06);
+}
+
+.div3:hover {
+    box-shadow: 5px 5px 15px 2px var(--skin-color);
+    cursor: pointer;
+    transform: scale(1.06);
+}
+
+.div4:hover {
+    box-shadow: 5px 5px 15px 2px var(--skin-color);
+    cursor: pointer;
+    transform: scale(1.06);
+}
+
+#question {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-info a i {
+    color: var(--skin-color);
+    border: 1px solid var(--skin-color);
+    border-radius: 50%;
+    padding: 5px;
+    width: 20px;
+}
+
+.contact-no {
+    height: 80px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-mail {
+    height: 80px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-info h4 {
+    margin-top: 10px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 500px;
+    height: 365px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+form input,
+textarea {
+    max-width: 450px;
+    width: 100%;
+    max-height: 40px;
+    height: 100%;
+    color: var(--text-black-700);
+    background: #0f151de4;
+    border: 2px solid var(--skin-color);
+    border-radius: 8px;
+}
+
+form input[type="submit"] {
+    font-size: 18px;
+    padding: 12px 35px;
+    color: white;
+    width: 200px;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    background: var(--skin-color);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    transform: scale(1.06);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding-bottom: 2rem;
+    margin-top: 15px;
+}
+
+.footer-contact {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-contact i {
+    font-size: 30px;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.footer-contact i:hover {
+    text-shadow: 0 0 15px var(--skin-color);
+    transform: scale(1.08);
+}
+
+@media(max-width:1500px) {
+    .logo {
+        display: none;
+    }
+
+    .intro p {
+        display: none;
+    }
+
+    .intro {
+        display: block;
+        margin-top: 150px;
+    }
+
+    img {
+        width: 300px;
+        background-image: url(background.jpg);
+        background-size: cover;
+        border-radius: 50%;
+        margin-right: 30px;
+    }
+
+    #my-projects {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .div1,
+    .div2,
+    .div3,
+    .div4 {
+        margin: 20px;
+    }
+
+    #my-skills {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skill-1,
+    .skill-2,
+    .skill-3 {
+        margin: 20px;
+    }
+
+
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="skins.css/color1.css">
+    <link rel="stylesheet" href="style-switcher.css">
+    <link rel="stylesheet" href="skins.css/color1.css" class="alternate-style" title="color1" disabled>
+    <link rel="stylesheet" href="skins.css/color2.css" class="alternate-style" title="color2" disabled>
+    <link rel="stylesheet" href="skins.css/color3.css" class="alternate-style" title="color3" disabled>
+    <link rel="stylesheet" href="skins.css/color4.css" class="alternate-style" title="color4" disabled>
+    <link rel="stylesheet" href="skins.css/color5.css" class="alternate-style" title="color5" disabled>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+    </style>
+</head>
+
+<body>
+    <header class="port-header">
+        <div class="logo color">
+            <span style="font-size: 35px;">A</span><span>adarsh</span>
+        </div>
+        <div class="head-div">
+            <a href="#home">Home</a>
+            <a href="#skill">Skills</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+    <main>
+        <div id="home">
+            <h2>Hello , My Name is <span class="name color">Aadarsh Bhukele.</span></h2>
+            <h2> I Am a <span class="name color">Frontend Developer</span></h2>
+        </div>
+        <div class="intro">
+            <p>Hello! I'm a dedicated front-end developer with a passion for crafting intuitive and visually stunning
+                web interfaces. I specialize in HTML, CSS, and JavaScript, and have hands-on experience with modern
+                frameworks like React and Vue.js.
+                <br><br>I'm always eager to learn and stay updated with the latest industry trends to keep my skills
+                sharp. Let's build something amazing together!
+            </p>
+            <img src="me.png" alt="image could not found">
+        </div>
+        <a href="https://www.linkedin.com/in/aadarsh-bhukele-a75a372a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank" class="btn">Hire Me</a>
+        <hr>
+        <h1 id="skill" class="color"> Skills</h1>
+        <div id="my-skills">
+            <div class="skill-1">
+                <i class="fa-brands fa-html5" style="color: #e34c26;"></i>
+                <h3>95%</h3>
+                <h3>HTML5</h3>
+            </div>
+            <div class="skill-2">
+                <i class="fa-brands fa-css" style="color: purple;"></i>
+                <h3>90%</h3>
+                <h3>CSS</h3>
+            </div>
+            <div class="skill-3">
+                <i class="fa-brands fa-js" style="color: #f7df1e;"></i>
+                <h3>85%</h3>
+                <h3>JAVASCRIPT</h3>
+
+            </div>
+        </div>
+        <hr>
+        <h1 id="project" class="color">My Projects</h1>
+        <div id="my-projects">
+            <div class="div1">
+                <h2>Tic Tac Toe Game</h2>
+                <a href="" class="project-visit">Visit</a>
+            </div>
+            <div class="div2">
+                <h2>Stone paper Scissors</h2>
+                <a href="" class="project-visit">Visit</a>
+            </div>
+            <div class="div3">
+                <h2>Login, Signup page</h2>
+                <a href="" class="project-visit">Visit</a>
+            </div>
+            <div class="div4">
+                <h2>Portfolio</h2>
+                <a href="" class="project-visit">Visit</a>
+            </div>
+        </div>
+        <hr>
+        <h1 id="contact" class="color">Contact Me</h1>
+        <p id="question">Have You Any Questions ?</p>
+        <div class="contact-info">
+            <div class="contact-no"> <a href="tel:+919423235706"><i class="fa-solid fa-phone"></i></a>
+                <h4>Call Me On</h4>
+            </div>
+            <div class="contact-mail"><a href="mailto:aadarshbhukele2005@gmail.com"><i
+                        class="fa-solid fa-envelope"></i></a>
+                <h4>Email</h4>
+            </div>
+        </div>
+        <div class="outercontact">
+            <div class="contact">
+                <form action="">
+                    <input type="text" placeholder="Name">
+                    <input type="number" placeholder="+91 1643090961">
+                    <input type="email" placeholder="E-mail">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="" id="" placeholder="Message"></textarea>
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+        </div>
+    </main>
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fa-solid fa-gear"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color1" onclick="setActiveStyle('color1')"></span>
+            <span class="color2" onclick="setActiveStyle('color2')"></span>
+            <span class="color3" onclick="setActiveStyle('color3')"></span>
+            <span class="color4" onclick="setActiveStyle('color4')"></span>
+            <span class="color5" onclick="setActiveStyle('color5')"></span>
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <p>Made by Aadarsh</p>
+        <div class="footer-icon">
+            <div class="footer-contact">
+                <a href="https://www.linkedin.com/in/aadarsh-bhukele-a75a372a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:aadarshbhukele2005@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.instagram.com/adarsh_bhukele?utm_source=qr&igsh=MXRscGhrem5oMDhwbw=="
+                    target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="http://t.me/Adarshpatil132" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
