@@ -62,7 +62,7 @@ header li:first-child {
     width: 250px;
     z-index: 999;
     background-color: #0f151de4;
-    display:flex;
+    display:none;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
@@ -85,7 +85,7 @@ header li:first-child {
 .main-content {
     height: 730px;
     width: 100%;
-    background-image: url(pictures/background.jpg);
+    background-image: url(background.jpg);
     background-size: cover;
 }
 
@@ -122,42 +122,42 @@ header li:first-child {
 .image-card-1{
     width: 150px;
     height: 200px;
-    background-image: url(pictures/Bali.jpg);
+    background-image: url(Bali.jpg);
     background-size: cover;
     border-radius: 6px 6px 0 0;
 }
 .image-card-2{
     width: 150px;
     height: 200px;
-    background-image: url(pictures/Europe.jpg);
+    background-image: url(Europe.jpg);
     background-size: cover;
     border-radius: 6px 6px 0 0;
 }
 .image-card-3{
     width: 150px;
     height: 200px;
-    background-image: url(pictures/Italy.jpg);
+    background-image: url(Italy.jpg);
     background-size: cover;
     border-radius: 6px 6px 0 0;
 }
 .image-card-4{
     width: 150px;
     height: 200px;
-    background-image: url(pictures/Maldives.jpg);
+    background-image: url(Maldives.jpg);
     background-size: cover;
     border-radius: 6px 6px 0 0;
 }
 .image-card-5{
     width: 150px;
     height: 200px;
-    background-image: url(pictures/Manali.jpg);
+    background-image: url(Manali.jpg);
     background-size: cover;
     border-radius: 6px 6px 0 0;
 }
 .image-card-6{
     width: 150px;
     height: 200px;
-    background-image: url(pictures/Switzerland.jpg);
+    background-image: url(Switzerland.jpg);
     background-size: cover;
     border-radius: 6px 6px 0 0;
 }
@@ -195,7 +195,7 @@ header li:first-child {
         display: none;
     }
     .main-content {
-    background-image: url(pictures/background-2.jpg);
+    background-image: url(background-2.jpg);
     background-size: cover;
     }
     .content {
@@ -215,7 +215,7 @@ header li:first-child {
         display: none;
     }
     .main-content {
-    background-image: url(pictures/background-3.jpg);
+    background-image: url(background-3.jpg);
     background-size: cover;
     }
     .content {
