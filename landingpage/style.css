@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header ul {
+    list-style: none;
+    height: 60px;
+    position: fixed;
+    background-color: aquamarine;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    line-height: 60px;
+    text-wrap: wrap;
+}
+
+ul a {
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 30px;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+ul a:hover {
+    color: red;
+}
+
+header .btn {
+    font-size: 18px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 40px;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    margin: 0 30px 0 30px;
+    background-color:darksalmon;
+    text-decoration: none;
+}
+
+header li:first-child {
+    margin-right: auto;
+}
+
+.Logo {
+    font-size: 25px;
+}
+.sidebar  {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: #0f151de4;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    list-style: none;
+}
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+}
+.sidebar li{
+    margin-top: 0;
+    width: 100%;
+    padding-left: 20px;
+}
+#menu-btn {
+    display:none ;
+}
+.main-content {
+    height: 730px;
+    width: 100%;
+    background-image: url(pictures/background.jpg);
+    background-size: cover;
+}
+
+.content {
+    padding: 200px 0 0 70px;
+    font-size: larger;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.content p {
+    margin-top: 30px;
+    font-weight: 500;
+}
+#desti-headline {
+    font-size: 20px;
+    text-align: center;
+    margin:50px;
+    text-decoration: underline;
+}
+.destination{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.destination-div{
+    padding: 4px;
+    border-radius: 6px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 5px 5px 15px 2px black;
+    background-color: aquamarine;
+}
+.image-card-1{
+    width: 150px;
+    height: 200px;
+    background-image: url(pictures/Bali.jpg);
+    background-size: cover;
+    border-radius: 6px 6px 0 0;
+}
+.image-card-2{
+    width: 150px;
+    height: 200px;
+    background-image: url(pictures/Europe.jpg);
+    background-size: cover;
+    border-radius: 6px 6px 0 0;
+}
+.image-card-3{
+    width: 150px;
+    height: 200px;
+    background-image: url(pictures/Italy.jpg);
+    background-size: cover;
+    border-radius: 6px 6px 0 0;
+}
+.image-card-4{
+    width: 150px;
+    height: 200px;
+    background-image: url(pictures/Maldives.jpg);
+    background-size: cover;
+    border-radius: 6px 6px 0 0;
+}
+.image-card-5{
+    width: 150px;
+    height: 200px;
+    background-image: url(pictures/Manali.jpg);
+    background-size: cover;
+    border-radius: 6px 6px 0 0;
+}
+.image-card-6{
+    width: 150px;
+    height: 200px;
+    background-image: url(pictures/Switzerland.jpg);
+    background-size: cover;
+    border-radius: 6px 6px 0 0;
+}
+.explore a{
+    font-size: 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    text-wrap: wrap;
+}
+#about-us{
+    margin: 50px;
+    text-wrap: wrap;
+}
+#about-us h2,p{
+    margin-top: 10px;
+}
+#about-us h1{
+    margin-top: 50px;
+}
+.num{
+    color: blueviolet;
+}
+.numbers{
+    margin: 50px 30px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+@media(max-width:768px){
+ #menu-btn {
+        display: block; 
+    }
+    .hideonmobile{
+        display: none;
+    }
+    .main-content {
+    background-image: url(pictures/background-2.jpg);
+    background-size: cover;
+    }
+    .content {
+    padding: 100px 0 0 0;
+    font-size: medium;
+    }
+    .numbers{
+        display: grid;
+        gap: 30px;
+    }
+}
+@media(max-width:450px){
+ #menu-btn {
+        display: block;
+    }
+    .hideonmobile{
+        display: none;
+    }
+    .main-content {
+    background-image: url(pictures/background-3.jpg);
+    background-size: cover;
+    }
+    .content {
+    padding: 100px 0 0 0;
+    font-size: medium;
+    }
+    .numbers{
+        display: grid;
+        gap: 30px;
+    }
+}
